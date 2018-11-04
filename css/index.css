@@ -34,6 +34,7 @@ nav {
     justify-content: space-between;
     padding: 0px 30px; }
     nav .menu a {
+      cursor: pointer;
       flex: 1;
       text-decoration: none;
       color: #333;
