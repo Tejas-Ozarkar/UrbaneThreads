@@ -264,7 +264,7 @@ footer{
         box-sizing: border-box; 
         .tagline{
             position: absolute;
-    right: 14px;
+    // right: 14px;
     top: 26%;
     text-align: center;
     color: white;
@@ -274,6 +274,9 @@ footer{
     font-size: 28px;
     font-family: 'Pattaya', sans-serif;
     font-weight: 300;
+        }
+        .content .content1{
+            background: none;
         }
     }
     .about-us-wrap{
@@ -285,9 +288,11 @@ footer{
         .text{
             font-size: 11px;
         }
+        .cards{margin: 0}
     }
+   
     .cards .cards-wrap {
-        margin-top: 50px;
+        margin-top: 0px;
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -388,7 +393,7 @@ footer{
 }
 }
   
-  @media only screen and (min-height: 500px) and (max-width: 1200px) {
+  @media only screen and (min-width: 500px) and (max-width: 1200px) {
     nav{
         .menu{
             flex-wrap: wrap;

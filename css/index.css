@@ -196,7 +196,6 @@ footer {
     box-sizing: border-box; }
     .image-wrap .tagline {
       position: absolute;
-      right: 14px;
       top: 26%;
       text-align: center;
       color: white;
@@ -206,6 +205,8 @@ footer {
       font-size: 28px;
       font-family: 'Pattaya', sans-serif;
       font-weight: 300; }
+    .image-wrap .content .content1 {
+      background: none; }
 
   .about-us-wrap {
     margin: 0;
@@ -214,9 +215,11 @@ footer {
       font-size: 15px; }
     .about-us-wrap .text {
       font-size: 11px; }
+    .about-us-wrap .cards {
+      margin: 0; }
 
   .cards .cards-wrap {
-    margin-top: 50px;
+    margin-top: 0px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -295,7 +298,7 @@ footer {
         font-size: 20px; }
       footer .footer-content p {
         font-size: 16px; } }
-@media only screen and (min-height: 500px) and (max-width: 1200px) {
+@media only screen and (min-width: 500px) and (max-width: 1200px) {
   nav .menu {
     flex-wrap: wrap; }
     nav .menu a {
