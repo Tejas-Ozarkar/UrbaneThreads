@@ -3,7 +3,14 @@
 @import url('https://fonts.googleapis.com/css?family=Pattaya');
 
 $primary-color:#CAA80D;
-
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}   
 *{
     padding: 0;
     margin: 0;
@@ -235,3 +242,294 @@ footer{
     color:#333;
     font-size: 16px;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    nav{
+        .menu{
+            flex-wrap: wrap;
+            a{
+                flex-basis: 186px;
+    margin: 11px;
+            }
+        }
+
+    }
+    .image-wrap{
+        height: 213px;
+        background: url(../images/action.jpg);
+        background-size: cover;
+        margin: 0;
+        overflow: hidden;
+        position: relative;
+        box-sizing: border-box; 
+        .tagline{
+            position: absolute;
+    right: 14px;
+    top: 26%;
+    text-align: center;
+    color: white;
+    padding: 0px 29px;
+    /* width: 587px; */
+    width: auto;
+    font-size: 28px;
+    font-family: 'Pattaya', sans-serif;
+    font-weight: 300;
+        }
+    }
+    .about-us-wrap{
+        margin: 0;
+        padding: 10px;
+        .heading{
+            font-size:15px;
+        }
+        .text{
+            font-size: 11px;
+        }
+    }
+    .cards .cards-wrap {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+        .card{
+            flex-grow: 1;
+            flex-basis: 0;
+            margin: 10px;
+            /* width: 333px; */
+        }
+    }
+    .why-wrap{
+        margin: 0;
+        padding: 0;
+        height: auto;
+        flex-wrap: wrap;
+        &.organic{
+            height: auto;
+            .content{
+                background: rgba(0,0,0,0.5);
+
+            }
+            .heading{
+                font-size:15px;
+                color: white;
+            }
+            .subtext{
+                font-size: 11px;
+                color: white;
+            }
+            h4{
+                font-size: 15px;
+                color: white;
+            }
+            ul{
+                font-size: 11px;
+                color: white;
+            }
+        }
+        .content{
+            padding: 20px;
+            flex-basis:600px;
+        }
+        &.fairtrade{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+            .heading{
+                font-size:15px;
+            }
+            .subtext{
+                font-size: 11px;
+            }
+            .content{
+                padding: 20px;
+            }
+        }
+    }
+    
+
+.cycle-wrap{
+    margin: 0;
+    padding: 20px;
+.header {
+    color: #caa80d;
+    float: left;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+  } 
+  footer {
+    /* height: 600px; */
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: url(../images/img1.JPG);
+    background-size: cover;
+    /* margin: 60px; */
+    /* padding: 36px; */
+    .footer-content {
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 46px 0px;
+        h3{
+            font-size:20px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+}
+}
+  
+  @media only screen and (min-height: 500px) and (max-width: 1200px) {
+    nav{
+        .menu{
+            flex-wrap: wrap;
+            a{
+                flex-basis: 266px;
+    margin: 11px;
+            }
+        }
+    
+
+    }
+    .image-wrap{
+        height: 423px;
+    background: url(../images/action.jpg);
+    background-size: cover;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+        .tagline{
+            position: absolute;
+            right: 14px;
+            top: 37%;
+            text-align: center;
+            color: white;
+            padding: 0px 29px;
+            width: 329px;
+            /* width: auto; */
+            font-size: 28px;
+            font-family: 'Pattaya', sans-serif;
+            font-weight: 300;
+        }
+    }
+    .about-us-wrap{
+        margin: 0;
+        padding: 20px;
+        .heading{
+            font-size:20px;
+        }
+        .text{
+            font-size: 16px;
+        }
+    }
+    .cards .cards-wrap {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+        .card{
+            flex-grow: 1;
+            flex-basis: 0;
+            margin: 10px;
+            /* width: 333px; */
+        }
+    }
+    .why-wrap{
+        margin: 0;
+        padding: 0;
+        height: auto;
+        flex-wrap: wrap;
+        &.organic{
+            height: 500px;
+            .content{
+                background: rgba(0,0,0,0.5);
+
+            }
+            .heading{
+                font-size:20px;
+                color: white;
+            }
+            .subtext{
+                font-size: 16px;
+                color: white;
+            }
+            h4{
+                font-size: 18px;
+                color: white;
+            }
+            ul{
+                font-size: 16px;
+                color: white;
+            }
+        }
+        .content{
+            padding: 20px;
+            flex-basis:600px;
+        }
+        &.fairtrade{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+            .heading{
+                font-size:20px;
+            }
+            .subtext{
+                font-size: 16px;
+            }
+            .content{
+                padding: 20px;
+            }
+        }
+    }
+    
+
+.cycle-wrap{
+    margin: 0;
+    padding: 20px;
+.header {
+    color: #caa80d;
+    float: left;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+  } 
+  footer {
+    /* height: 600px; */
+    height: 320px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/img1.JPG);
+    background-size: cover;
+    /* margin: 60px; */
+    /* padding: 36px; */
+    .footer-content {
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 46px 0px;
+        h3{
+            font-size:30px;
+        }
+        p{
+            font-size: 22px;
+        }
+    }
+}
+  }

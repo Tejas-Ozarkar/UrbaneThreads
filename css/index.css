@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Charmonman|Exo+2");
 @import url("https://fonts.googleapis.com/css?family=Pattaya");
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -171,3 +178,236 @@ footer {
   text-align: center;
   color: #333;
   font-size: 16px; }
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  nav .menu {
+    flex-wrap: wrap; }
+    nav .menu a {
+      flex-basis: 186px;
+      margin: 11px; }
+
+  .image-wrap {
+    height: 213px;
+    background: url(../images/action.jpg);
+    background-size: cover;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box; }
+    .image-wrap .tagline {
+      position: absolute;
+      right: 14px;
+      top: 26%;
+      text-align: center;
+      color: white;
+      padding: 0px 29px;
+      /* width: 587px; */
+      width: auto;
+      font-size: 28px;
+      font-family: 'Pattaya', sans-serif;
+      font-weight: 300; }
+
+  .about-us-wrap {
+    margin: 0;
+    padding: 10px; }
+    .about-us-wrap .heading {
+      font-size: 15px; }
+    .about-us-wrap .text {
+      font-size: 11px; }
+
+  .cards .cards-wrap {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px; }
+    .cards .cards-wrap .card {
+      flex-grow: 1;
+      flex-basis: 0;
+      margin: 10px;
+      /* width: 333px; */ }
+
+  .why-wrap {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    flex-wrap: wrap; }
+    .why-wrap.organic {
+      height: auto; }
+      .why-wrap.organic .content {
+        background: rgba(0, 0, 0, 0.5); }
+      .why-wrap.organic .heading {
+        font-size: 15px;
+        color: white; }
+      .why-wrap.organic .subtext {
+        font-size: 11px;
+        color: white; }
+      .why-wrap.organic h4 {
+        font-size: 15px;
+        color: white; }
+      .why-wrap.organic ul {
+        font-size: 11px;
+        color: white; }
+    .why-wrap .content {
+      padding: 20px;
+      flex-basis: 600px; }
+    .why-wrap.fairtrade {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center; }
+      .why-wrap.fairtrade .heading {
+        font-size: 15px; }
+      .why-wrap.fairtrade .subtext {
+        font-size: 11px; }
+      .why-wrap.fairtrade .content {
+        padding: 20px; }
+
+  .cycle-wrap {
+    margin: 0;
+    padding: 20px; }
+    .cycle-wrap .header {
+      color: #caa80d;
+      float: left;
+      font-weight: 600;
+      font-size: 13px;
+      margin-bottom: 20px; }
+
+  footer {
+    /* height: 600px; */
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: url(../images/img1.JPG);
+    background-size: cover;
+    /* margin: 60px; */
+    /* padding: 36px; */ }
+    footer .footer-content {
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 46px 0px; }
+      footer .footer-content h3 {
+        font-size: 20px; }
+      footer .footer-content p {
+        font-size: 16px; } }
+@media only screen and (min-height: 500px) and (max-width: 1200px) {
+  nav .menu {
+    flex-wrap: wrap; }
+    nav .menu a {
+      flex-basis: 266px;
+      margin: 11px; }
+
+  .image-wrap {
+    height: 423px;
+    background: url(../images/action.jpg);
+    background-size: cover;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box; }
+    .image-wrap .tagline {
+      position: absolute;
+      right: 14px;
+      top: 37%;
+      text-align: center;
+      color: white;
+      padding: 0px 29px;
+      width: 329px;
+      /* width: auto; */
+      font-size: 28px;
+      font-family: 'Pattaya', sans-serif;
+      font-weight: 300; }
+
+  .about-us-wrap {
+    margin: 0;
+    padding: 20px; }
+    .about-us-wrap .heading {
+      font-size: 20px; }
+    .about-us-wrap .text {
+      font-size: 16px; }
+
+  .cards .cards-wrap {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px; }
+    .cards .cards-wrap .card {
+      flex-grow: 1;
+      flex-basis: 0;
+      margin: 10px;
+      /* width: 333px; */ }
+
+  .why-wrap {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    flex-wrap: wrap; }
+    .why-wrap.organic {
+      height: 500px; }
+      .why-wrap.organic .content {
+        background: rgba(0, 0, 0, 0.5); }
+      .why-wrap.organic .heading {
+        font-size: 20px;
+        color: white; }
+      .why-wrap.organic .subtext {
+        font-size: 16px;
+        color: white; }
+      .why-wrap.organic h4 {
+        font-size: 18px;
+        color: white; }
+      .why-wrap.organic ul {
+        font-size: 16px;
+        color: white; }
+    .why-wrap .content {
+      padding: 20px;
+      flex-basis: 600px; }
+    .why-wrap.fairtrade {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center; }
+      .why-wrap.fairtrade .heading {
+        font-size: 20px; }
+      .why-wrap.fairtrade .subtext {
+        font-size: 16px; }
+      .why-wrap.fairtrade .content {
+        padding: 20px; }
+
+  .cycle-wrap {
+    margin: 0;
+    padding: 20px; }
+    .cycle-wrap .header {
+      color: #caa80d;
+      float: left;
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 20px; }
+
+  footer {
+    /* height: 600px; */
+    height: 320px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/img1.JPG);
+    background-size: cover;
+    /* margin: 60px; */
+    /* padding: 36px; */ }
+    footer .footer-content {
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 46px 0px; }
+      footer .footer-content h3 {
+        font-size: 30px; }
+      footer .footer-content p {
+        font-size: 22px; } }
