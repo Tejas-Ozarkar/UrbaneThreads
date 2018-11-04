@@ -181,7 +181,8 @@ footer {
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
   nav .menu {
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-bottom: 20px; }
     nav .menu a {
       flex-basis: 186px;
       margin: 11px; }
